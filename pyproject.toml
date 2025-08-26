@@ -1,0 +1,20 @@
+[project]
+name = "pdfchat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.0.20",
+    "dotenv>=0.9.9",
+    "fitz>=0.0.1.dev2",
+    "frontend>=0.0.3",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.31",
+    "langgraph>=0.6.6",
+    "logging>=0.4.9.6",
+    "pymupdf>=1.26.3",
+    "pypdf2>=3.0.1",
+    "sentence-transformers>=5.1.0",
+    "streamlit>=1.48.1",
+]

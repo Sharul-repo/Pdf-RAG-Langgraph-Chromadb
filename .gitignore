@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.idea/
+.DS_Store
+.venv/
+chroma_db/
+__pycache__/
+*.pyc
+.uv/
+uploaded_files/
+.chroma_db/
+*.log
+.DS_Store
+.vscode/
+.idea/
