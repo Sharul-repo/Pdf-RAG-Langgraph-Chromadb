@@ -17,6 +17,12 @@ You can ask **questions** about the document, get **context-aware answers**, and
 
 ---
 
+---
+![Demo Screenshot](graph.png)
+---
+
+---
+
 ## 🛠️ Tech Stack  
 
 - **[LangGraph](https://github.com/langchain-ai/langgraph)**  
