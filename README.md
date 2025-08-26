@@ -1,4 +1,4 @@
-# 📄 PDF Q&A Agent with LangGraph, Chroma & Streamlit  
+# 📄 PDF Agent with LangGraph, Chroma & Streamlit  
 
 This project is an **AI-powered assistant** that allows you to upload PDFs, extract their contents, and interact with them using natural language.  
 You can ask **questions** about the document, get **context-aware answers**, and even **summarize content** — all from a simple Streamlit UI.  
@@ -48,3 +48,10 @@ You can ask **questions** about the document, get **context-aware answers**, and
 ```bash
 git clone https://github.com/yourusername/pdf-qa-langgraph-chroma.git
 cd pdf-qa-langgraph-chroma
+
+# Install dependencies using uv (reads pyproject.toml + uv.lock)
+uv sync
+
+# Run your app
+uv run streamlit run app.py
+```
